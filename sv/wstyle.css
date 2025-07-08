@@ -1,0 +1,63 @@
+/* Background Image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('regi.jpg');
+    background-size: cover;
+    
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+   
+}
+
+/* Form Box */
+.box.form-box {
+    background-color: rgba(57, 51, 51, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Buttons */
+.field input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.field input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}

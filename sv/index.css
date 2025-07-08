@@ -1,0 +1,160 @@
+
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-image: url(img2.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Login Container */
+    /* ...existing code... */
+.login-container {
+    background: rgba(77, 54, 54, 0.85); /* White with transparency */
+    /* backdrop-filter: blur(2px);  // Optional: blur effect for modern look */
+    width: 100%;
+    max-width: 400px;
+    min-height: 450px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* ...existing code... */
+
+    /* Heading */
+    .login-container h1 {
+        color: #e81a1a;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Alert Messages */
+    .alert {
+        background: #fee2e2;
+        color: #dc2626;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Form Elements */
+    .form-group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #e7ebf3;
+        font-weight: 500;
+    }
+    
+
+label[for="email"] {
+    color: #4caf50; /* Green */
+}
+
+/* Password label */
+label[for="password"] {
+    color: #3f51b5; /* Indigo */
+}
+
+    input {
+        width: 100%;
+        height: 45px;
+        padding: 0 15px;
+        border: 2px solid #e2e8f0;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+
+    input:focus {
+        border-color: #e81a4e;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.1);
+    }
+
+    /* Buttons */
+    button {
+        width: 100%;
+        height: 45px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button[type="submit"] {
+        background: #e81a2f;
+        color: white;
+        margin-top: 10px;
+    }
+
+    button[type="submit"]:hover {
+        background: #58b015;
+    }
+
+    .guest-login {
+        background: #4f46e5;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .guest-login:hover {
+        background: #38ca3a;
+    }
+
+    /* Links */
+    .links {
+        text-align: center;
+        margin-top: auto;
+        font-size: 14px;
+    }
+
+    .links a {
+        color: #1ae840;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 480px) {
+        .login-container {
+            padding: 30px 20px;
+            min-height: 400px;
+        }
+        
+        .login-container h1 {
+            font-size: 24px;
+        }
+        
+        input, button {
+            height: 42px;
+            font-size: 15px;
+        }
+    }

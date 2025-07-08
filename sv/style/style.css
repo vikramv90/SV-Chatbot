@@ -1,0 +1,324 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav .right-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav .right-links .btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav .right-links .btn:hover {
+    background-color: #ff1a1a;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.main-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.main-box .top, .main-box .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.main-box .box {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* Side Navigation */
+.sideNavigation {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideNavigation .topBarAction {
+    margin-bottom: 20px;
+}
+
+.sideNavigation .sideNavButton button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.sideNavigation .sideNavButton button:hover {
+    background-color: #555;
+}
+
+.sideNavigation .chatHistory ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sideNavigation .chatHistory ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sideNavigation .chatHistory ul li:hover {
+    background-color: #555;
+}
+
+.sideNavigation .actionlist button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.sideNavigation .actionlist button:hover {
+    background-color: #555;
+}
+
+/* Prompt Area */
+.prompt-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-top: 1px solid #ddd;
+}
+
+.prompt-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.prompt-container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prompt-container button:hover {
+    background-color: #555;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.modal .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.modal .close-modal:hover {
+    color: #ff4d4d;
+}
+
+
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: url('img.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Form Box */
+.box.form-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Fields */
+.field {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.field input[type="text"],
+.field input[type="password"],
+.field input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.field input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.field input[type="submit"]:hover {
+    background-color: #9f9c9c;
+}
+
+/* Links */
+.links {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Message Box */
+.message {
+    background-color: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Guest Button */
+.field input[name="guest"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.field input[name="guest"]:hover {
+    background-color: #0056b3;
+}
