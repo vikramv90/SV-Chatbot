@@ -1,0 +1,7 @@
+//HOW TO RUN THIS PROJECT//
+First downlode this project and unzip this Folder.
+and paste a project in xammp/htdocs/--
+start a xammp server and apachi server 
+open a database/phpmyadmin and CREATE a databade name "tutorial" 
+and import a file (USERS).
+and write a goggle localhost/sv/welcome.php 
